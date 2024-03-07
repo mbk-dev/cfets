@@ -1,18 +1,18 @@
 [tool.poetry]
 name = "cfets"
 version = "0.1.0"
-description = ""
+description = "Python interface for China Foreign Exchange Trade System (CFETS) API"
 authors = ["fzhulitov <fzhulitov@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-pandas = "^1.5.0"
-requests = "^2.28.1"
-numpy = "^1.24.1"
+python = ">=3.9,<4.0.0"
+pandas = "^2.2.0"
+requests = "*"
+#numpy = "^1.24.1"
 
 [tool.poetry.group.dev.dependencies]
-black = "^22.8.0"
+black = "*"
 
 [build-system]
 requires = ["poetry-core"]
